@@ -92,7 +92,7 @@ There are many different implementations of HTTP Routers such as regular express
 
 The purpose of an HTTP Router is to take a URL path like "/", "/about", or "/blog/2019-01-15/my-awesome-blog-post" and figure out what content to return. In a dynamic web server, the content will often come from a block of code called a handler.
 
-<img src=image.png alt="Managing-app-location-with-react-router-2x">
+<img src=image.jpg alt="Managing-app-location-with-react-router-2x">
 
 First we need to implement a slightly different Trie than the one we used for autocomplete. Instead of simple words the Trie will contain a part of the http path at each node, building from the root node `/`
 
